@@ -2,8 +2,8 @@
 #include <stdlib.h>
 void findLargest(int* arr, int N)
 {
-	int i,n;
-	for (i=1;i<n;i++)
+	int i;
+	for (i=1;i<N;i++)
 	{
 		if (*arr<*(arr+i)) 
 		{
