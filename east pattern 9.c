@@ -12,7 +12,6 @@ int main()
 		}
 		for(j=i;j>=1;j--)
 		{
-			j=j*j;
 			printf("%d ",j);
 		}
 	printf("\n");
